@@ -7,10 +7,14 @@ Description: Implementation of the DataSHIELD driver that connects with a
 Depends: 
     R (>= 3.5),
     DSI,
-    methods
+    methods,
+    rjson,
+    RCurl
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Collate: 
+    'MolgenisSession.R'
     'MolgenisDriver.R'
+    'MolgenisConnection.R'
