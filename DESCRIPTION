@@ -5,8 +5,12 @@ Authors@R: c(person("Fleur", "Kelpin", email = "f.kelpin@umcg.nl", role = c("aut
 Description: Implementation of the DataSHIELD driver that connects with a
     MOLGENIS instance using the MOLGENIS R API.
 Depends: 
-    R (>= 3.5.2),
-    DSI
+    R (>= 3.5),
+    DSI,
+    methods
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
+Collate: 
+    'MolgenisDriver.R'
