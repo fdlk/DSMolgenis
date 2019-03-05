@@ -1,0 +1,12 @@
+Package: DSMolgenis
+Title: DataSHIELD implementation for MOLGENIS
+Version: 0.0.0.9000
+Authors@R: c(person("Fleur", "Kelpin", email = "f.kelpin@umcg.nl", role = c("aut", "cre")))
+Description: Implementation of the DataSHIELD driver that connects with a
+    MOLGENIS instance using the MOLGENIS R API.
+Depends: 
+    R (>= 3.5.2),
+    DSI
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
